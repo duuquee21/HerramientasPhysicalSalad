@@ -1,0 +1,18 @@
+KIT DE INICIO
+=============
+Tres scripts listos para usar o adaptar. Compilan solos: solo dependen del paquete y de la interfaz de Unity (uGUI).
+
+ButtonSounds.cs
+  Sonido de clic y de ratón encima en TODOS los botones y casillas, sin tocarlos uno a uno.
+  Colócalo en un objeto de la escena inicial. Usa los eventos UI_Click, UI_Hover y UI_Toggle (cámbialos en el Inspector).
+  Para que un botón no lleve el sonido automático: SoundIgnore.Mark(gameObject);
+
+AudioSettingsView.cs
+  Deslizadores de Maestro, Música, Efectos y Ambiente para el menú de ajustes. Se guardan entre sesiones.
+
+StateMusicDirector.cs
+  Elige la música según el estado del juego:  StateMusicDirector.SetState("combate", true);
+  Las reglas (estado -> pista) se rellenan en el Inspector, por orden de prioridad.
+
+Lo que sea específico de tu juego (qué evento suena cuando pasa qué) escríbelo en un script tuyo, en un solo sitio,
+usando GameAudio.Play("id") o, mejor, las constantes de AudioIds (generadas desde el catálogo).

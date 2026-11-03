@@ -1,0 +1,18 @@
+{
+    "name": "Studio.Audio.Editor",
+    "rootNamespace": "Studio.Audio.EditorTools",
+    "references": [
+        "Studio.Audio.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

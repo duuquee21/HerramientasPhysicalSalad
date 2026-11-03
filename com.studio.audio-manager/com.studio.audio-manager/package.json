@@ -1,0 +1,16 @@
+{
+    "name": "com.studio.audio-manager",
+    "displayName": "Audio Manager (por eventos)",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "Motor de audio por eventos para juegos 2D y 3D: sonidos y música configurables por datos, voces con prioridad, bancos de volumen, ducking, música con fundido cruzado, importación automática y herramientas para que el equipo de sonido trabaje sin tocar código.",
+    "keywords": [ "audio", "sound", "music", "events", "audio manager" ],
+    "author": { "name": "Tu estudio" },
+    "samples": [
+        {
+            "displayName": "Kit de inicio",
+            "description": "Sonido automático en todos los botones, deslizadores de volumen y música por estados. Scripts listos para adaptar.",
+            "path": "Samples~/StarterKit"
+        }
+    ]
+}
